@@ -6,7 +6,7 @@ Please click "tips" on the application' page to check the user manual
 # deployment
 ## To run the map at localhost:3000
 ```
-cd RSHM
+cd RangeSumHeatMap
 npm install
 npm start
 ```
