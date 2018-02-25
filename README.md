@@ -1,5 +1,7 @@
-# RSHM
-Welcome to use range sum heat map. Please click "tips" on the application' page to check the user manual
+# Range Sum Heat Map
+Welcome to use range sum heat map.
+[demo address](http://rshm.xuminzhe.com)
+Please click "tips" on the application' page to check the user manual
 
 # deployment
 ## To run the map at localhost:3000
