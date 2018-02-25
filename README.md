@@ -1,7 +1,7 @@
 # RSHM
 Welcome to use range sum heat map. Please click "tips" on the application' page to check the user manual
 
-#deployment
+# deployment
 ## To run the map at localhost:3000
 ```
 cd RSHM
@@ -50,7 +50,7 @@ $ sudo service nginx restart
 ```
 
 
-##To deploy RSHM server API
+## To deploy RSHM server API
 1.	install mongodb and run the following code to run mongodb in background
 ```
 $ mongod --fork --logpath /var/log/mongodb/mongod.log
@@ -71,7 +71,7 @@ Back-End Server part: It is responsible for providing API for the application. B
 After posting a json message containing datapoint information at domain/api, API will return a token. By using get method at domain/api/token_id, API will return the stored file using json format.
 Please refer to JsonExample to check the example of exchanged Json format.
 
-#How it works?
+# How it works?
 Application uses store to contain all the states like data points and drones. When user triggers a new action, it can be dispatched to reducer. Applicaiton uses reducer to change the store, the information in the store will then render on screen.
 
 We cut the store into slices for different data. Add we can use the reducer in /src/reducers to update store
@@ -86,7 +86,7 @@ Index: if an acton will change several parts in store, we update the store using
 
 you can save the file and load file using format as JsonExample.json
 
-#Bulit with
+# Bulit with
 * React-redux
 	Application uses react-redux to connect react components with redux store and bind actions as props.  Following codes are deployed in the components to get the data in the store and dispatch reducers in actions.
 ```
