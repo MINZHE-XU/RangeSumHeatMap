@@ -1,0 +1,57 @@
+body {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.datapoint-panel {
+  /* height: 480px; */
+  height: calc(50vh - 300px);
+  overflow-y: auto;
+}
+
+.drone-image {
+  height: 16px;
+  length: 16px;
+}
+
+.file-load {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+.file-load, .file-load-label {
+  font-size: 12px;
+  border-radius: 3px;
+  border: 1px solid rgb(186, 186, 186);
+  font-weight: 400;
+  padding: 6px 9px;
+  text-align: center;
+  margin-bottom: 0px;
+  color: black;
+  background-color: white;
+  display: inline-block;
+}
+
+.mapDIV {
+  margin: 10px 5%;
+}
+
+.file-load, .file-load-label {}
+
+.file-load:hover, .file-load-label:hover {
+  background-color: rgb(216, 216, 216);
+}
+
+.file-load, .file-load-label {
+  cursor: pointer;
+  /* "hand" cursor */
+}
+
+.file-load:focus+.file-load-label {
+  outline: 1px dotted #000;
+  outline: -webkit-focus-ring-color auto 5px;
+}

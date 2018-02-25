@@ -1,0 +1,29 @@
+{
+  "name": "RSHM",
+  "version": "0.1.0",
+  "private": true,
+  "homepage" : "https://rshm.xuminzhe.com/",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "google-maps-react": "^1.1.2",
+    "react": "^16.2.0",
+    "react-bootstrap": "^0.32.1",
+    "react-button": "^1.2.1",
+    "react-copy-to-clipboard": "^5.0.1",
+    "react-dom": "^16.2.0",
+    "react-google-maps": "^9.4.5",
+    "react-redux": "^5.0.6",
+    "react-scripts": "1.0.17",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.0.0",
+    "webpack": "^3.10.0"
+  },
+  "snyk": true
+}
